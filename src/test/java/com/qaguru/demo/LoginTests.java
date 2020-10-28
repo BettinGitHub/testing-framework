@@ -9,7 +9,7 @@ public class LoginTests {
     public void loginWithValidUser() {
         System.out.println("Login test with valid user and password");
         // Assert.fail("Login Test failed"); //to make a test failed
-        String exp = "hello";
+        String exp = "Hello";
         String act = "Hello";
         Assert.assertEquals(act, exp, "The words don't match");
     }
