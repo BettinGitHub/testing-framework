@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="MyShopTestSuite" verbose="1" >
+    <test name="Demo Tests in TestNG" >
+        <classes>
+            <class name="com.qaguru.demo.LoginTests" />
+            <class name="com.qaguru.demo.ShoppingTests" />
+        </classes>
+    </test>
+</suite>
