@@ -7,9 +7,9 @@ public class LoginTests {
 
     @Test(priority = 1, testName = "Login test with valid credentials")
     public void loginWithValidUser() {
-        System.out.println("Login test with valid user and password");
+        System.out.println("Login test with a valid username and password");
         // Assert.fail("Login Test failed"); //to make a test failed
-        String exp = "Helloo";
+        String exp = "Hello";
         String act = "Hello";
         Assert.assertEquals(act, exp, "The words don't match");
     }
