@@ -15,7 +15,7 @@ public class LoginTests {
     }
     @Test(priority = 3)
     public void loginWithInvalidUser(){
-        System.out.println("Login with invalid user");
+        System.out.println("Login with a invalid user");
         Assert.fail("Invalid user login test failed");
     }
 
