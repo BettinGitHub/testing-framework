@@ -15,9 +15,12 @@ public class ShoppingTests {
         System.out.println("@@@ After Suite executed @@@");
     }
 
+    @Parameters({"browser","os"})
     @BeforeTest
-    public void beforeTest(){
+    public void beforeTest(String theBrowser, String theOs){
         System.out.println("___Before Test executed___");
+        System.out.println(" Browser : "+ theBrowser);
+        System.out.println(" Operating System : "+ theOs);
     }
 
     @AfterTest
